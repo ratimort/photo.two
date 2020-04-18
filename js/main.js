@@ -3,8 +3,13 @@ function myFunction() {
   myVar = setTimeout(showPage);
 }
 function showPage() {
+  var body = document.getElementById("body")
+  var all = document.getElementById("all")
+  var element = document.getElementById("body")
   document.getElementById("loader").style.top = "-100%";
   document.getElementById("myDiv").style.display = "block";
+  body.classList.remove("body1")
+  all.classList.remove("all-js")
 }
 
 $(document).ready(function(){
