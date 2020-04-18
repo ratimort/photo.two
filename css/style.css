@@ -61,6 +61,9 @@ svg {
   -ms-transform: translate(0, 0);
   transform: translate(0, 0); }
 
+.all-js {
+  display: none; }
+
 .all-1 {
   -webkit-transform: translate(-20%) !important;
   -ms-transform: translate(-20%) !important;
@@ -128,7 +131,8 @@ header {
       margin: 1.23vw 0;
       z-index: 1001;
       position: relative;
-      right: 0; }
+      right: 0;
+      cursor: pointer; }
     .top-menu .right .button .line-1-1, .top-menu .right .button .line-2-1 {
       width: 2.3vw;
       height: 0.3vw;
@@ -174,7 +178,8 @@ header {
       margin: 1.28vw 0;
       z-index: 1001;
       position: relative;
-      right: 0; }
+      right: 0;
+      cursor: pointer; }
     .menu-toggle .button .line-1, .menu-toggle .button .line-2 {
       width: 2.3vw;
       height: 0.3vw;
