@@ -20,6 +20,7 @@ $(document).ready(function(){
     $(".top-menu").toggleClass("all-1");
     $(".all-bl").fadeToggle(100)
     $(".menu-toggle").removeClass("right-toggle")
+     $("body").removeClass("body1")
   });
 });
 
