@@ -1,0 +1,248 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 1190px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+
+}
+@media only screen and (max-width: 991px) {
+.col-md-2, .col-md-10 {
+	padding: 0 15px!important;
+}
+header {
+	height: 500px;
+}
+.top-menu .left h1 {
+	font-size: 20px;
+	margin: 10px 0;
+}
+.top-menu .right .button .click-on {
+	margin: 10px 0;
+}
+.top-menu .right .button .line-1-1, .top-menu .right .button .line-2-1 {
+	width: 23px;
+	height: 3px;
+	margin: 7px 0
+}
+.text-index {
+	padding: 30px 0;
+}
+.text-index .col-md-10 p {
+	font-size: 16px;
+	margin-top: 10px;
+}
+.work {
+	padding: 30px 0;
+}
+.work h1 {
+	font-size: 20px;
+	margin: 0 0 20px;
+}
+.work .item {
+	padding: 0 15px!important;
+}
+.work .item .img-i {
+	padding: 5px 5px;
+}
+.work .item .img-1 .text h2 {
+	font-size: 16px;
+	top: 80%;
+	left: 20px;
+}
+.contact {
+	padding: 20px 0 5px;
+}
+.contact .col-md-10 {
+	padding: 0 15px!important;
+}
+.contact h2 {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.menu-toggle {
+    width: 30%;
+    /*height: 100vh;*/
+    /*position: absolute;*/
+    /*background-color: #fff;*/
+    z-index: 10000;
+    /*right: -30%!important;*/
+}
+.menu-toggle .button .line-2 {
+	width: 25px;
+	height: 3px;
+	margin: 7px;
+}
+.menu-toggle .button .line-1 {
+	width: 25px;
+	height: 3px;
+	margin: 7px;
+}
+.menu-toggle ul {
+	margin-top: 30%;
+}
+.menu-toggle ul li {
+	padding: 8px 0;
+}
+.menu-toggle ul li a {
+	font-size: 17px;
+}
+.menu-toggle .button .line-1 {
+	transform: rotate(-45deg) translate(-3px, 2.5px);
+}
+.menu-toggle .button .line-2 {
+	transform: rotate(45deg) translate(-4.5px, -3.5px);
+}
+.menu-toggle ul {
+	padding-left: 30px; 
+}
+.all-1 {
+	transform: translate(-30%)!important;
+	-webkit-transform: translate(-30%)!important;
+    -ms-transform: translate(-30%)!important;
+}
+.menu-toggle .button .click-on-1 {
+	margin: 10px 0;
+}
+footer .left p {
+	font-size: 18px;
+	padding-right: 25px;
+	float: none;
+}
+footer .right p {
+	font-size: 18px;
+	float: none;
+}
+footer  {
+	padding: 8px 15px;
+}
+}
+
+@media only screen and (max-width: 823px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+.text-index .col-md-10 p {
+	font-size: 14px;
+}
+.work .item .img-i {
+	height: 350px;
+}
+.contact h2 {
+	font-size: 16px;
+}
+.menu-toggle {
+	width: 240px;
+}
+.all-1 {
+	transform: translate(-240px)!important;
+	-webkit-transform: translate(-240px)!important;
+    -ms-transform: translate(-240px)!important;
+}
+footer .left {
+	margin-bottom: 10px;
+}
+footer .left p {
+	font-size: 16px;
+	text-align: center;
+	padding: 0 15px;
+}
+footer .right p {
+	font-size: 16px;
+	text-align: center;
+}
+}
+}
+
+@media only screen and (max-width: 736px) {
+
+}
+
+@media only screen and (max-width: 667px) {
+/*.fade-toggle {
+	left: 67%!important;
+}*/
+}
+
+@media only screen and (max-width: 650px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 570px) {
+.work .item .img-i {
+	height: 300px;
+} 
+.work .item {
+	padding: 0 10px!important;
+} 
+}
+@media only screen and (max-width: 455px) {
+
+}
+
+
+@media only screen and (max-width: 380px) {
+.work .item .img-i {
+	height: 250px;
+} 
+footer .left p {
+	font-size: 14px;
+	padding: 0 7px;
+}
+footer .right p {
+	font-size: 14px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+}
+@media only screen and (min-width: 1800px) {
+
+}
+@media only screen and (min-width: 2300px) {
+
+}

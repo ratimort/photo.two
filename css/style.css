@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1, h3, p, h2, li, h4, a, span, button {
+  font-family: 'Montserrat';
+  text-decoration: none;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 0.8px; }
+
+p, input, textarea {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-weight: 300;
+  font-size: 19px; }
+
+textarea, input {
+  outline: 0; }
+
+h3 {
+  font-size: 20px; }
+
+svg {
+  stroke-width: 4; }
+
+.col-md-2, .col-md-12, .col-md-10, .col-md-1 {
+  padding: 0 2vw !important; }
+
+.body1 {
+  overflow: hidden; }
+
+.loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999999;
+  background-color: #111;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  .loader h1 {
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.all {
+  position: relative;
+  left: 0;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0); }
+
+.all-1 {
+  -webkit-transform: translate(-20%) !important;
+  -ms-transform: translate(-20%) !important;
+  transform: translate(-20%) !important;
+  -webkit-transition: all 1s ease !important;
+  -o-transition: all 1s ease !important;
+  transition: all 1s ease !important; }
+
+.all-bl {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: 999;
+  display: none; }
+
+.right-toggle {
+  -webkit-transform: translate(0, 0) !important;
+  -ms-transform: translate(0, 0) !important;
+  transform: translate(0, 0) !important;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+  header .row {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.top-menu {
+  width: 100%;
+  position: fixed;
+  background-color: #dcdcdc;
+  top: 0;
+  z-index: 999;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  .top-menu .left {
+    -webkit-animation-name: animatebottom;
+    animation-name: animatebottom;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s; }
+    .top-menu .left h1 {
+      font-size: 2.2vw;
+      color: #EE8572;
+      margin: 1vw 0;
+      padding: 0; }
+  .top-menu .right .button {
+    -webkit-animation-name: animatebottom;
+    animation-name: animatebottom;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    position: relative;
+    z-index: 100000; }
+    .top-menu .right .button .click-on {
+      float: right;
+      margin: 1.23vw 0;
+      z-index: 1001;
+      position: relative;
+      right: 0; }
+    .top-menu .right .button .line-1-1, .top-menu .right .button .line-2-1 {
+      width: 2.3vw;
+      height: 0.3vw;
+      margin: 0.7vw;
+      background-color: #111; }
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: 100vw;
+    opacity: 0; }
+  to {
+    bottom: 0;
+    opacity: 1; } }
+
+@keyframes animatebottom {
+  from {
+    bottom: 100vw;
+    opacity: 0; }
+  to {
+    bottom: 0;
+    opacity: 1; } }
+
+.menu-toggle {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  overflow: scroll;
+  background-color: #fff;
+  z-index: 10000;
+  right: 0;
+  top: 0;
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  .menu-toggle .button {
+    position: relative;
+    z-index: 100000; }
+    .menu-toggle .button .click-on-1 {
+      float: right;
+      margin: 1.28vw 0;
+      z-index: 1001;
+      position: relative;
+      right: 0; }
+    .menu-toggle .button .line-1, .menu-toggle .button .line-2 {
+      width: 2.3vw;
+      height: 0.3vw;
+      margin: 0.7vw;
+      background-color: #fff; }
+    .menu-toggle .button .line-2 {
+      -webkit-transform: rotate(45deg) translate(-0.48vw, -0.3vw);
+      -ms-transform: rotate(45deg) translate(-0.48vw, -0.3vw);
+      transform: rotate(45deg) translate(-0.48vw, -0.3vw);
+      background-color: #111 !important; }
+    .menu-toggle .button .line-1 {
+      -webkit-transform: rotate(-45deg) translate(-0.45vw, 0.2vw);
+      -ms-transform: rotate(-45deg) translate(-0.45vw, 0.2vw);
+      transform: rotate(-45deg) translate(-0.45vw, 0.2vw);
+      background-color: #111 !important; }
+  .menu-toggle ul {
+    margin-top: 10vw;
+    padding-left: 4vw; }
+    .menu-toggle ul li {
+      padding: 0.8vw 0;
+      list-style-type: none; }
+      .menu-toggle ul li a {
+        color: #111;
+        font-size: 1.5vw; }
+
+.text-index {
+  height: 100%;
+  padding: 4vw 0;
+  display: flow-root; }
+  .text-index .col-md-10 {
+    padding: 0;
+    height: 100%; }
+    .text-index .col-md-10 p {
+      font-size: 2vw;
+      color: #111;
+      margin-top: 1vw; }
+
+.work {
+  padding: 4vw 0;
+  height: 100%;
+  display: flow-root; }
+  .work h1 {
+    font-size: 3vw;
+    color: #EE8572;
+    margin: 0 0 3vw;
+    padding: 0;
+    text-align: center; }
+  .work .item {
+    padding: 0 !important; }
+    .work .item .img-i {
+      height: 30vw;
+      padding: 0.5vw 0.5vw; }
+    .work .item .img-1 {
+      height: 100%;
+      background-position: center;
+      background-size: cover; }
+      .work .item .img-1 .text {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); }
+        .work .item .img-1 .text h2 {
+          font-size: 2vw;
+          position: relative;
+          top: 75%;
+          left: 2vw; }
+
+.contact {
+  background-color: #f5f5f5;
+  display: flow-root;
+  padding: 3vw 0 1.2vw; }
+  .contact .col-md-10 {
+    padding: 0 !important; }
+  .contact h2 {
+    color: #111;
+    margin-bottom: 1.2vw;
+    font-size: 1.5vw; }
+  .contact a {
+    color: #EE8572; }
+
+footer {
+  background-color: #35495E;
+  display: flow-root !important;
+  padding: 1vw 0; }
+  footer .left {
+    padding: 0; }
+    footer .left p {
+      float: left;
+      font-size: 1.5vw;
+      padding-right: 4vw;
+      display: inline; }
+  footer .right {
+    padding: 0; }
+    footer .right p {
+      float: right;
+      font-size: 1.5vw; }

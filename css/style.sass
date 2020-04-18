@@ -1,0 +1,276 @@
+* 
+	margin: 0
+	box-sizing: border-box
+body
+	// background-color: #000
+h1, h3, p, h2, li, h4, a, span, button
+	font-family: 'Montserrat'
+	text-decoration: none
+	font-weight: 100
+	color: #fff
+	letter-spacing: 0.8px
+p, input, textarea
+	font-family: 'Montserrat'
+	font-weight: normal
+	font-weight: 300
+	font-size: 19px
+textarea, input 
+	outline: 0
+h3
+	font-size: 20px
+svg
+   stroke-width: 4
+.col-md-2, .col-md-12, .col-md-10, .col-md-1
+	padding: 0 2vw!important
+.body1 
+	overflow: hidden
+.loader
+	width: 100%
+	height: 100%
+	position: fixed
+	top: 0
+	z-index: 9999999
+	background-color: #111
+	transition: all 1s ease
+	h1 
+		font-size: 20px
+		text-align: center
+		position: relative
+		top: 50%
+		left: 50%
+		transform: translate(-50%,-50%)
+.all
+	position: relative
+	left: 0
+	transition: all 1s ease
+	transform: translate(0,0)
+.all-1
+	transform: translate(-20%)!important
+	transition: all 1s ease!important
+.all-bl
+	background-color: rgba(0,0,0,0.5)
+	position: fixed
+	width: 100%
+	height: 100vh
+	top: 0
+	z-index: 999
+	display: none
+.right-toggle 
+	transform: translate(0,0)!important
+	transition: all 1s ease
+// HEADER
+
+header 
+	width: 100%
+	height: 100vh
+	background-size: cover
+	background-position: center
+	.row
+		margin: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0,0,0,0.5)
+
+// HEADER
+
+
+// TOP MENU
+
+.top-menu
+	width: 100%
+	position: fixed
+	background-color: #dcdcdc
+	top: 0
+	z-index: 999
+	transition: all 1s ease
+	.left 
+		animation-name: animatebottom
+		animation-duration: 1.5s
+		h1
+			font-size: 2.2vw
+			color: #EE8572
+			margin: 1vw 0
+			padding: 0
+	.right
+		.button
+			animation-name: animatebottom
+			animation-duration: 1.5s
+			// display: none
+			position: relative
+			z-index: 100000
+			.click-on
+				float: right
+				margin: 1.23vw 0
+				z-index: 1001
+				position: relative
+				right: 0
+			.line-1-1, .line-2-1
+				width: 2.3vw
+				height: 0.3vw 
+				margin: 0.7vw
+				background-color: #111
+@keyframes animatebottom 
+	from 
+		bottom: 100vw
+		opacity: 0
+	to 
+		bottom: 0
+		opacity: 1
+
+// TOP MENU
+
+
+
+// MENU TOGGLE
+
+.menu-toggle
+	width: 20%
+	height: 100vh
+	position: fixed
+	overflow: scroll
+	background-color: #fff
+	z-index: 10000
+	right: 0
+	top: 0
+	transform: translateX(100%)
+	transition: all 1s ease
+	.button
+		// display: none
+		position: relative
+		z-index: 100000
+		.click-on-1
+			float: right
+			margin: 1.28vw 0
+			z-index: 1001
+			position: relative
+			right: 0
+		.line-1, .line-2
+			width: 2.3vw
+			height: 0.3vw 
+			margin: 0.7vw
+			background-color: #fff
+			// transition: all .2s ease
+		.line-2
+			transform: rotate(45deg) translate(-0.48vw, -0.3vw)
+			background-color: #111!important
+		.line-1
+			transform: rotate(-45deg) translate(-0.45vw, 0.2vw)
+			background-color: #111!important
+	ul 
+		margin-top: 10vw
+		padding-left: 4vw
+		li 
+			padding: 0.8vw 0
+			list-style-type: none
+			a 
+				color: #111
+				font-size: 1.5vw
+				// font-weight: 300
+
+// MENU TOGGLE
+
+
+
+// INDEX-TEXT
+
+.text-index
+	height: 100%
+	padding: 4vw 0
+	display: flow-root
+	.col-md-10
+		padding: 0
+		height: 100%
+		p
+		 	font-size: 2vw
+		 	color: #111
+		 	margin-top: 1vw
+
+// INDEX-TEXT
+
+
+
+
+// WORK
+
+.work 
+	padding: 4vw 0
+	height: 100%
+	display: flow-root
+	h1
+		font-size: 3vw
+		color: #EE8572
+		margin: 0 0 3vw
+		padding: 0
+		text-align: center
+	.item
+		padding: 0!important
+		.img-i
+			height: 30vw
+			padding: 0.5vw 0.5vw
+		.img-1
+			height: 100%
+			background-position: center
+			background-size: cover
+			.text
+				width: 100%
+				height: 100%
+				background-color: rgba(0,0,0,0.5)
+				h2
+					font-size: 2vw
+					position: relative 
+					top: 75%
+					left: 2vw
+
+
+// WORK
+
+
+
+// CONTACT
+
+.contact 
+	background-color: #f5f5f5
+	display: flow-root
+	padding: 3vw 0 1.2vw
+	.col-md-10 
+		padding: 0!important
+	h2 
+		color: #111
+		margin-bottom: 1.2vw
+		font-size: 1.5vw
+	a 
+		color: #EE8572
+
+
+// CONTACT
+
+
+
+// CONTACT
+
+footer 
+	background-color: #35495E
+	display: flow-root!important
+	padding: 1vw 0
+	.left
+		padding: 0
+		p  
+			float: left
+			font-size: 1.5vw
+			padding-right: 4vw 
+			display: inline
+	.right
+		padding: 0
+		p
+			float: right
+			font-size: 1.5vw
+
+// CONTACT
+
+
+
+
+
+
+
+
